@@ -19,4 +19,9 @@ public class Sampler {
     public AlwaysSampler alwaysSampler() {
         return new AlwaysSampler();
     }
+
+    @Bean
+    public RestTemplate getRestTemplate() {
+        return new RestTemplate();
+    }
 }
